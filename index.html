@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head> <link rel="icon" type="image/x-icon" href="favicon.ico">
-
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nostrik - Checklist gratuita</title>
+  <title>Nostrik | Identidad que conecta</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -76,7 +75,7 @@
       const email = document.getElementById('email').value;
       const problema = document.getElementById('problema').value;
 
-      const mensaje = `Hola Nostrik, soy ${nombre}. Me interesa la checklist gratuita. Mi cuenta de Instagram es ${instagram}. Siento que ${problema}. Puedes escribirme a ${email}`;
+      const mensaje = `Hola Nostrik, soy ${nombre}. Me interesa la guía gratuita. Mi cuenta de Instagram es ${instagram}. Siento que ${problema}. Puedes escribirme a ${email}`;
       const url = `https://wa.me/51956044956?text=${encodeURIComponent(mensaje)}`;
       window.open(url, '_blank');
     }
@@ -84,7 +83,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Checklist gratuita para tu emprendimiento</h1>
+    <h1>Guía rápida para emprendedores</h1>
     <p>
       Descubre en menos de 2 minutos si tu marca está lista para triunfar en redes sociales. Llena el formulario y te enviaremos nuestra guía exclusiva por WhatsApp.
     </p>
@@ -93,7 +92,7 @@
       <input type="text" id="instagram" placeholder="@tucuenta">
       <input type="email" id="email" placeholder="Tu correo" required>
       <textarea id="problema" rows="4" placeholder="¿Qué sientes que no está funcionando en tus redes?"></textarea>
-      <button type="submit">¡Quiero mi checklist!</button>
+      <button type="submit">¡Quiero mi guía!</button>
     </form>
   </div>
   <div class="footer">
